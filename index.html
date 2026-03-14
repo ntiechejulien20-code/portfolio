@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#06121c">
+    <meta name="description" content="Portfolio de Julien Ntieche, développeur web full-stack basé au Cameroun. Découvrez mes projets et compétences en développement web.">
+
+    <title>Julien Ntieche — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="brand"><span class="brand-icon">💻</span> Julien Dev</div>
+                <div class="links">
+                    <a href="#home">Accueil</a>
+                    <a href="#about">À propos</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#skills">Compétences</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero reveal" id="home">
+            <div class="container">
+                <div class="intro">
+                    <h1>Je suis <span class="name-blue">Julien</span>.</h1>
+                    <p>Développeur web. Je conçois des interfaces performantes, modernes et accessibles, pour des expériences utilisateurs fluides.</p>
+
+                    <div class="hero-actions">
+                        <a class="btn" href="#projects">Voir mes projets</a>
+                        <a class="btn btn-outline" href="mailto:ntiechejulien20@gmail.com">Me contacter</a>
+                    </div>
+                </div>
+
+                <div class="photo">
+                    <img src="image/IMG_4419.JPG" alt="Photo de Julien Ntieche" loading="lazy" class="scroll-animate">
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="about">
+            <div class="container">
+                <h2>À propos</h2>
+                <div class="grid grid-2">
+                    <div class="card reveal">
+                        <h3>Qui je suis</h3>
+                        <p>Développeur web basé au Cameroun. J’accompagne les entreprises dans la création de produits digitaux fiables, rapides et élégants.</p>
+                        <ul>
+                            <li>+2 ans d'expérience en développement web</li>
+                            <li>Focus performance & accessibilité</li>
+                            <li>Travail en équipe Agile</li>
+                        </ul>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Ce que je fais</h3>
+                        <ul>
+                            <li>Site web modernes</li>
+                            <li>Intégrations API & automations</li>
+                            <li>Optimisation SEO & performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="projects">
+            <div class="container">
+                <h2>Projets</h2>
+                <div class="grid grid-2">
+                    <article class="card reveal">
+                        <h3>Plateforme collaborative</h3>
+                        <p>Application d’équipe avec gestion des permissions, tableau de bord et notifications en temps réel.</p>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Site vitrine professionnel</h3>
+                        <p>Site responsive optimisé pour les conversions, avec animations modernes et SEO amélioré.</p>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Intégration API</h3>
+                        <p>Récupération et affichage de données externes (paiement, CRM, météo, etc.) avec gestion complète des erreurs.</p>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Portail interne</h3>
+                        <p>Backoffice sécurisé avec interface d’administration, rapports et gestion d’utilisateurs.</p>
+                        <a href="#" class="btn">Voir le projet</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="skills">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-block">
+                        <span class="skill-icon">💻</span>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-block">
+                        <span class="skill-icon">🎨</span>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-block">
+                        <span class="skill-icon">⚡</span>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-block">
+                        <span class="skill-icon">📱</span>
+                        <h3>Responsive Design</h3>
+                    </div>
+                    <div class="skill-block">
+                        <span class="skill-icon">🔧</span>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-block">
+                        <span class="skill-icon">♿</span>
+                        <h3>Accessibilité</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal contact-section" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Travaillons ensemble. Écris-moi un message et je réponds rapidement.</p>
+                <div class="contact-grid">
+                    <div class="contact-block reveal">
+                        <span class="contact-icon">📧</span>
+                        <h4>Email</h4>
+                        <a href="mailto:ntiechejulien20@gmail.com">ntiechejulien20@gmail.com</a>
+                    </div>
+                    <div class="contact-block reveal">
+                        <span class="contact-icon"><img src="image/2.jpg" alt="WhatsApp" width="24" height="24"></span>
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/237689786064" target="_blank" rel="noopener">+237 689 786 064</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>📍 Douala, Cameroun</p>
+                    <p>📞 +237 689 786 064</p>
+                    <a href="https://wa.me/237689786064" target="_blank" rel="noopener" class="whatsapp-link">
+                        <img src="image/2.jpg" alt="WhatsApp" width="24" height="24"> WhatsApp
+                    </a>
+                </div>
+                <p>© <span id="year"></span> Julien Ntieche. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
