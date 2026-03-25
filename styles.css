@@ -533,6 +533,10 @@ footer {
         justify-content: center;
     }
 
+    .hero .photo {
+        margin-top: 2rem;
+    }
+
     .contact-list {
         justify-content: center;
     }
